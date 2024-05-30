@@ -67,7 +67,31 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\Category.aspx" />
     <Content Include="Admin\Dashboard.aspx" />
+    <Content Include="assets\datatables\css\dataTables.bootstrap4.min.css" />
+    <Content Include="assets\datatables\css\icon-font.min.css" />
+    <Content Include="assets\datatables\css\jquery.dataTables.min.css" />
+    <Content Include="assets\datatables\css\responsive.bootstrap4.min.css" />
+    <Content Include="assets\datatables\css\responsive.dataTables.min.css" />
+    <Content Include="assets\datatables\images\sort_asc.png" />
+    <Content Include="assets\datatables\images\sort_asc_disabled.png" />
+    <Content Include="assets\datatables\images\sort_both.png" />
+    <Content Include="assets\datatables\images\sort_desc.png" />
+    <Content Include="assets\datatables\images\sort_desc_disabled.png" />
+    <Content Include="assets\datatables\js\buttons.bootstrap4.min.js" />
+    <Content Include="assets\datatables\js\buttons.flash.min.js" />
+    <Content Include="assets\datatables\js\buttons.html5.min.js" />
+    <Content Include="assets\datatables\js\buttons.print.min.js" />
+    <Content Include="assets\datatables\js\datatable-setting.js" />
+    <Content Include="assets\datatables\js\dataTables.bootstrap4.min.js" />
+    <Content Include="assets\datatables\js\dataTables.buttons.min.js" />
+    <Content Include="assets\datatables\js\dataTables.responsive.min.js" />
+    <Content Include="assets\datatables\js\jquery.dataTables.min.js" />
+    <Content Include="assets\datatables\js\jszip.min.js" />
+    <Content Include="assets\datatables\js\pdfmake.min.js" />
+    <Content Include="assets\datatables\js\responsive.bootstrap4.min.js" />
+    <Content Include="assets\datatables\js\vfs_fonts.js" />
     <Content Include="assets\css\animate.css\css\animate.css" />
     <Content Include="assets\css\bootstrap\css\bootstrap.min.css" />
     <Content Include="assets\css\jquery.mCustomScrollbar.css" />
@@ -193,6 +217,13 @@
     <Compile Include="Admin\Admin.Master.designer.cs">
       <DependentUpon>Admin.Master</DependentUpon>
     </Compile>
+    <Compile Include="Admin\Category.aspx.cs">
+      <DependentUpon>Category.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Category.aspx.designer.cs">
+      <DependentUpon>Category.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\Dashboard.aspx.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -200,6 +231,7 @@
     <Compile Include="Admin\Dashboard.aspx.designer.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
     </Compile>
+    <Compile Include="clsUtils.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -255,6 +287,10 @@
     <Content Include="assets\icon\themify-icons\fonts\themify.eot" />
     <Content Include="assets\icon\themify-icons\fonts\themify.ttf" />
     <Content Include="assets\icon\themify-icons\fonts\themify.woff" />
+    <Content Include="assets\datatables\fonts\ionicons.ttf" />
+    <Content Include="assets\datatables\fonts\ionicons.woff" />
+    <Content Include="assets\datatables\fonts\themify.ttf" />
+    <Content Include="assets\datatables\fonts\themify.woff" />
     <None Include="packages.config" />
     <Content Include="TemplateFiles\css\style.css.map" />
     <Content Include="TemplateFiles\css\style.scss" />
@@ -271,6 +307,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Images\Category\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
