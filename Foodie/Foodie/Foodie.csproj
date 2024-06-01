@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Admin\Category.aspx" />
     <Content Include="Admin\Dashboard.aspx" />
+    <Content Include="Admin\Product.aspx" />
     <Content Include="assets\datatables\css\dataTables.bootstrap4.min.css" />
     <Content Include="assets\datatables\css\icon-font.min.css" />
     <Content Include="assets\datatables\css\jquery.dataTables.min.css" />
@@ -231,6 +232,13 @@
     <Compile Include="Admin\Dashboard.aspx.designer.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\Product.aspx.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Product.aspx.designer.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+    </Compile>
     <Compile Include="clsUtils.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -308,6 +316,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Images\Category\" />
+    <Folder Include="Images\Product\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

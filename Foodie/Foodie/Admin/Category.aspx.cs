@@ -1,4 +1,4 @@
-﻿using EcommerceSite;
+﻿using Foodie;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -48,6 +48,7 @@ namespace Foodie.Admin
             btnAddOrUpdate.Text = "Add";
             imagePreview.ImageUrl = string.Empty;
             lblMsg.Text = string.Empty;
+            
         }
         protected void btnAddOrUpdate_Click(object sender, EventArgs e)
         {
@@ -95,8 +96,8 @@ namespace Foodie.Admin
                     lblMsg.Visible = true;
                     lblMsg.Text = "Category " + ActionName + " Successfully";
                     lblMsg.CssClass = "alert alert-success";
-                    //GetCategories();
-                    Clear();
+                    GetCategories();
+                    //Clear();
                 }
                 catch (Exception ex)
                 {
@@ -112,5 +113,78 @@ namespace Foodie.Admin
         {
             Clear();
         }
-    }
+        protected void rCategory_ItemCommand(object source, RepeaterCommandEventArgs e)
+        {
+            lblMsg.Visible = false;
+            if (e.CommandName == "edit")
+            {
+                con = new SqlConnection(clsUtils.GetConnection());
+                cmd = new SqlCommand("sp_Category", con);
+                cmd.Parameters.AddWithValue("@Action", "GetByID");
+                cmd.Parameters.AddWithValue("@CategoryID", e.CommandArgument);
+                cmd.CommandType = CommandType.StoredProcedure;
+                adapter = new SqlDataAdapter(cmd);
+                dt = new DataTable();
+                adapter.Fill(dt);
+                txtCategoryName.Text = dt.Rows[0]["CategoryName"].ToString();
+                cbIsActive.Checked = Convert.ToBoolean(dt.Rows[0]["IsActive"]);
+                imagePreview.ImageUrl = string.IsNullOrEmpty(dt.Rows[0]["CategoryImage"].ToString()) ? "../Images/No_image.png" : "../" + dt.Rows[0]["CategoryImage"].ToString();
+                imagePreview.Height = 200;
+                imagePreview.Width = 200;
+                hfCategoryID.Value = dt.Rows[0]["CategoryID"].ToString();
+                LinkButton btn =e.Item.FindControl("lbEdit") as LinkButton;
+                btn.Enabled = false;
+                btnAddOrUpdate.Text = "Update";
+                
+               // btnAddOrUpdate.CssClass = "badge badge-warning";
+            }
+            else if (e.CommandName == "delete")
+            {
+                con = new SqlConnection(clsUtils.GetConnection());
+                cmd = new SqlCommand("sp_Category", con);
+                cmd.Parameters.AddWithValue("@Action", "Delete");
+                cmd.Parameters.AddWithValue("@CategoryID", e.CommandArgument);
+                cmd.CommandType = CommandType.StoredProcedure;
+
+
+                try
+                {
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+
+                    lblMsg.Visible = true;
+                    lblMsg.Text = "Category Deleted Successfully";
+                    lblMsg.CssClass = "alert alert-success";
+                    GetCategories();
+                    //Clear();
+                }
+                catch (Exception ex)
+                {
+                    lblMsg.Visible = true;
+                    lblMsg.Text = "Error: " + ex.Message;
+                    lblMsg.CssClass = "alert alert-danger";
+                }
+                finally { con.Close(); }
+            }
+            
+            }
+        protected void rCategory_ItemDataBount(object source, RepeaterCommandEventArgs e)
+        {
+            if (e.Item.ItemType == ListItemType.Item || e.Item.ItemType == ListItemType.AlternatingItem)
+            {
+                Label lbl=e.Item.FindControl("lblIsActive") as Label;
+                if (lbl.Text == "True")
+                {
+                    lbl.Text = "Active";
+                    lbl.CssClass = "badge badge-success";
+
+                }
+                else
+                {
+                    lbl.Text = "In-Active";
+                    lbl.CssClass = "badge badge-danger";
+                }
+            }
+        }
+      }
 }

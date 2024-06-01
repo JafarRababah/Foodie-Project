@@ -6,7 +6,7 @@ using System.Linq;
 using System.Web;
 using System.Configuration;
 
-namespace EcommerceSite
+namespace Foodie
 {
 
     public class clsUtils

@@ -27,7 +27,7 @@
 
     <div class="pcoded-inner-content">
         <div class ="align-align-self-end">
-            <asp:Label ID="lblMsg" runat="server" Text="Label" Visible="false"></asp:Label>
+            <asp:Label ID="lblMsg" runat="server" Text="Label"></asp:Label>
         </div>
         <div class="main-body">
             <div class="page-wrapper">
@@ -78,29 +78,49 @@
                                             </div>
                                         </div>
                                     <div class="col-sm-6 col-md-8 col-lg-8 mobile-inputs">
-     <h4 class="sub-title">Category List</h4>
+                                         <h4 class="sub-title">Category List</h4>
                                         <div class="card-block table-border-style">
                                             <div class="table-responsive">
-                                                <asp:Repeater ID="rCategory" runat="server">
+                                                <asp:Repeater ID="rCategory" runat="server" OnItemCommand="rCategory_ItemCommand">
+                                                    
                                                     <HeaderTemplate>
-                                                        <table>
+                                                        <table class="table datatable-export table-hover nowrap">
+                                                            <thead>
                                                             <tr>
-                                                                <th>Name</th>
+                                                                <th class="table-plus">Name</th>
                                                                 <th>Image</th>
                                                                 <th>IsAcitve</th>
                                                                 <th>CreateDate</th>
-                                                                <th>Action</th>
+                                                                <th class="dataTable-nosort">Action</th>
                                                             </tr>
-                                                        </table>
+                                                        </thead>
+                                                            <tbody>
                                                     </HeaderTemplate>
                                                     <ItemTemplate>
                                                         <tr>
                                                             <td><%#Eval("CategoryName")%></td>
-                                                            <td><%#Eval("CategoryImage")%></td>
+                                                            <td>
+                                                              <img width="40" src="<%# Foodie.clsUtils.GetImageUrl(Eval("CategoryImage")) %>" alt="image" />
+                                                            </td>
+                                                           <%-- <td>
+                                                                <asp:Label ID="lblIsActive" runat="server" Text="<%Eval("IsActive")%>"></asp:Label>
+                                                            </td>--%>
                                                             <td><%#Eval("IsActive")%></td>
                                                             <td><%#Eval("CreateDate")%></td>
+                                                            <td>   <asp:LinkButton ID="lbEdit" runat="server" CssClass="badge badge-primary"
+                                                         CommandArgument='<%# Eval("CategoryID") %>' CommandName="edit" CausesValidation="False"><i class="ti-pencil"></i></asp:LinkButton>
+                                                         <asp:LinkButton ID="lbDelete" runat="server" CssClass="badge badge-danger" 
+                                                          CommandArgument='<%# Eval("CategoryID") %>' CommandName="delete" CausesValidation="False"  onClientClick="return confirm('Do you want to delete this category?');">
+                                                          <i class="ti-trash"></i></asp:LinkButton>
+
+      
+                                                        </td>
                                                         </tr>
                                                     </ItemTemplate>
+                                                    <FooterTemplate>
+                                                        </tbody>
+                                                        </table>
+                                                    </FooterTemplate>
                                                 </asp:Repeater>
                                             </div>
                                         </div>
@@ -114,6 +134,6 @@
             </div>
         </div>
     </div>
-
+</div>
 
 </asp:Content>
