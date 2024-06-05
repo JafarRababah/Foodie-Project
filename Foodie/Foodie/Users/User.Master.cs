@@ -21,6 +21,42 @@ namespace Foodie.Users
                 Control sliderUserControl = (Control)Page.LoadControl("SliderUserControl.ascx");
                 pnlSliderUC.Controls.Add(sliderUserControl);
             }
+            if (Session["UserID"] != null)
+            {
+                lbLoginOrLogout.Text = "Logout";
+            }
+            else
+            {
+                lbLoginOrLogout.Text = "Login";
+            }
+        }
+
+        protected void lbLoginOrLogout_Click(object sender, EventArgs e)
+        {
+            if (Session["UserID"] == null)
+            {
+                Response.Redirect("Login.aspx");
+                
+            }
+            else
+            {
+                Session.Abandon();
+                Response.Redirect("Login.aspx");
+            }
+        }
+
+        protected void lbRegisterationOrProfile_Click(object sender, EventArgs e)
+        {
+            if (Session["UserID"] != null)
+            {
+                lbRegisterationOrProfile.ToolTip = "User Profile";
+                Response.Redirect("Profile.aspx");
+            }
+            else
+            {
+                lbRegisterationOrProfile.ToolTip = "User Registration";
+                Response.Redirect("Registiration.aspx");
+            }
         }
     }
 }

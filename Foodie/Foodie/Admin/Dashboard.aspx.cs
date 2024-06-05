@@ -13,7 +13,11 @@ namespace Foodie.Admin
         {
             if(!IsPostBack)
             {
-                Session["breakCrum"] = " ";
+                Session["breadCrum"] = " ";
+                if (Session["Admin"] == null)
+                {
+                    Response.Redirect("../Users/Login.aspx");
+                }
             }
         }
     }

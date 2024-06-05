@@ -20,11 +20,19 @@ namespace Foodie.Admin
         {
             if (!IsPostBack)
             {
-                //Session["breakCumbTitle"] = "Manager Category";
-                Session["breakCrum"] = "Product";
+                //Session["breadCumbTitle"] = "Manager Category";
+                Session["breadCrum"] = "Product";
+                if (Session["Admin"] == null)
+                {
+                    Response.Redirect("../Users/Login.aspx");
+                }
+                else
+                {
+                    GetProducts();
+                }
             }
             lblMsg.Visible = false;
-            GetProducts();
+            
         }
         void GetProducts()
         {
@@ -136,7 +144,7 @@ namespace Foodie.Admin
             txtQuantity.Text = dt.Rows[0]["Quantity"].ToString();
             ddlCategories.SelectedValue = dt.Rows[0]["CategoryID"].ToString();
             cbIsActive.Checked = Convert.ToBoolean(dt.Rows[0]["IsActive"]);
-            imagePreview.ImageUrl = string.IsNullOrEmpty(dt.Rows[0]["ProductImage"].ToString()) ? "../Images/No_image.png" : "../" + dt.Rows[0]["CategoryImage"].ToString();
+            imagePreview.ImageUrl = string.IsNullOrEmpty(dt.Rows[0]["ProductImage"].ToString()) ? "../Images/No_image.png" : "../" + dt.Rows[0]["ProductImage"].ToString();
             imagePreview.Height = 200;
             imagePreview.Width = 200;
             hfProductID.Value = dt.Rows[0]["ProductID"].ToString();

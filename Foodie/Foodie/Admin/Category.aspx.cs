@@ -22,11 +22,19 @@ namespace Foodie.Admin
         {
             if (!IsPostBack)
             {
-                //Session["breakCumbTitle"] = "Manager Category";
-                Session["breakCrum"] = "Category";
+                //Session["breadCumbTitle"] = "Manager Category";
+                Session["breadCrum"] = "Category";
+                if (Session["Admin"] == null)
+                {
+                    Response.Redirect("../Users/Login.aspx");
+                }
+                else
+                {
+                    GetCategories();
+                }
             }
             lblMsg.Visible = false;
-            GetCategories();
+            
         }
         void GetCategories()
         {
