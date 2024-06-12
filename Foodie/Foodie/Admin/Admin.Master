@@ -138,7 +138,7 @@
                                        <%-- <a href="auth-normal-sign-in.html">
                                             <i class="ti-layout-sidebar-left"></i> Logout
                                         </a>--%>
-                                     <asp:LinkButton ID="lblLogout" runat="server" OnClick="lblLogout_Click1"><i class="ti-layout-sidebar-left"></i>Logout</asp:LinkButton>
+                                     <asp:LinkButton ID="lblLogout" runat="server" OnClick="lblLogout_Click1" CausesValidation="False"><i class="ti-layout-sidebar-left"></i>Logout</asp:LinkButton>
                                     
                                     </li>
                                      

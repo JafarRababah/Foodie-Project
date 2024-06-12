@@ -3,59 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|c:\\users\\jafar\\mygithub\\foodie-project\\foodie\\foodie\\users\\menu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\users\\menu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\users\\invoice.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\users\\invoice.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|c:\\users\\jafar\\mygithub\\foodie-project\\foodie\\foodie\\users\\registiration.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\users\\registiration.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\users\\payment.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\users\\payment.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\clsutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\clsutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\users\\invoice.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\users\\invoice.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\users\\menu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\users\\menu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|c:\\users\\jafar\\mygithub\\foodie-project\\foodie\\foodie\\users\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\users\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\users\\user.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\users\\user.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\users\\user.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\users\\user.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|c:\\users\\jafar\\mygithub\\foodie-project\\foodie\\foodie\\users\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\users\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|c:\\users\\jafar\\mygithub\\foodie-project\\foodie\\foodie\\users\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\users\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|c:\\users\\jafar\\mygithub\\foodie-project\\foodie\\foodie\\users\\profile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\users\\profile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|c:\\users\\jafar\\mygithub\\foodie-project\\foodie\\foodie\\users\\registiration.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\users\\registiration.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|c:\\users\\jafar\\mygithub\\foodie-project\\foodie\\foodie\\admin\\users.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\admin\\users.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|c:\\users\\jafar\\mygithub\\foodie-project\\foodie\\foodie\\admin\\users.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\admin\\users.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|c:\\users\\jafar\\mygithub\\foodie-project\\foodie\\foodie\\admin\\product.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\admin\\product.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\admin\\product.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -63,16 +23,68 @@
       "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\admin\\product.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|c:\\users\\jafar\\mygithub\\foodie-project\\foodie\\foodie\\users\\payment.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\users\\payment.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\users\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\users\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\users\\user.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\users\\user.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\users\\menu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\users\\menu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\users\\user.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\users\\user.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\clsutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\clsutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\admin\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\admin\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|c:\\users\\jafar\\mygithub\\foodie-project\\foodie\\foodie\\admin\\admin.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\admin\\admin.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\users\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\users\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\admin\\dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\admin\\dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\users\\cart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\users\\cart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\users\\cart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\users\\cart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\users\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\users\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\users\\menu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\users\\menu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\users\\registiration.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\users\\registiration.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\templatefiles\\js\\custom.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\templatefiles\\js\\custom.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\users\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\users\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\admin\\category.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -83,8 +95,32 @@
       "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\admin\\category.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\users\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\users\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\users\\registiration.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\users\\registiration.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\users\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\users\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\users\\profile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\users\\profile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\admin\\users.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\admin\\users.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\admin\\users.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\admin\\users.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\admin\\admin.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\admin\\admin.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\admin\\dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|solutionrelative:foodie\\admin\\dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6ADBA530-5A09-421A-BB6B-23F5AD727A71}|Foodie\\Foodie.csproj|C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\foodie\\admin\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -110,180 +146,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Menu.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Menu.aspx.cs",
-              "RelativeDocumentMoniker": "Foodie\\Users\\Menu.aspx.cs",
-              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Menu.aspx.cs",
-              "RelativeToolTip": "Foodie\\Users\\Menu.aspx.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAcwBAAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T13:15:28.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Registiration.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Registiration.aspx.cs",
-              "RelativeDocumentMoniker": "Foodie\\Users\\Registiration.aspx.cs",
-              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Registiration.aspx.cs",
-              "RelativeToolTip": "Foodie\\Users\\Registiration.aspx.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABQAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T03:45:52.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "clsUtils.cs",
               "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\clsUtils.cs",
               "RelativeDocumentMoniker": "Foodie\\clsUtils.cs",
               "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\clsUtils.cs",
               "RelativeToolTip": "Foodie\\clsUtils.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAcwDIAAAANAAAA",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAgwGAAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T17:02:48.163Z",
+              "WhenOpened": "2024-05-29T17:02:48.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Payment.aspx",
+              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Payment.aspx",
+              "RelativeDocumentMoniker": "Foodie\\Users\\Payment.aspx",
+              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Payment.aspx",
+              "RelativeToolTip": "Foodie\\Users\\Payment.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-08T19:30:06.989Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "User.Master",
-              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\User.Master",
-              "RelativeDocumentMoniker": "Foodie\\Users\\User.Master",
-              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\User.Master",
-              "RelativeToolTip": "Foodie\\Users\\User.Master",
+              "DocumentIndex": 2,
+              "Title": "Invoice.aspx",
+              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Invoice.aspx",
+              "RelativeDocumentMoniker": "Foodie\\Users\\Invoice.aspx",
+              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Invoice.aspx",
+              "RelativeToolTip": "Foodie\\Users\\Invoice.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-05-27T13:09:27.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Login.aspx",
-              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Login.aspx",
-              "RelativeDocumentMoniker": "Foodie\\Users\\Login.aspx",
-              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Login.aspx",
-              "RelativeToolTip": "Foodie\\Users\\Login.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-03T14:16:14.4Z",
+              "WhenOpened": "2024-06-09T22:45:57.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Login.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Login.aspx.cs",
-              "RelativeDocumentMoniker": "Foodie\\Users\\Login.aspx.cs",
-              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Login.aspx.cs",
-              "RelativeToolTip": "Foodie\\Users\\Login.aspx.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAiwBYAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T14:39:41.496Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "User.Master.cs",
-              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\User.Master.cs",
-              "RelativeDocumentMoniker": "Foodie\\Users\\User.Master.cs",
-              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\User.Master.cs",
-              "RelativeToolTip": "Foodie\\Users\\User.Master.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAIwB0AAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T14:05:42.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Menu.aspx",
-              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Menu.aspx",
-              "RelativeDocumentMoniker": "Foodie\\Users\\Menu.aspx",
-              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Menu.aspx",
-              "RelativeToolTip": "Foodie\\Users\\Menu.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-05-27T13:45:40.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Profile.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Profile.aspx.cs",
-              "RelativeDocumentMoniker": "Foodie\\Users\\Profile.aspx.cs",
-              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Profile.aspx.cs",
-              "RelativeToolTip": "Foodie\\Users\\Profile.aspx.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAlwC0AAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T04:23:47.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Users.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Users.aspx.cs",
-              "RelativeDocumentMoniker": "Foodie\\Admin\\Users.aspx.cs",
-              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Users.aspx.cs",
-              "RelativeToolTip": "Foodie\\Admin\\Users.aspx.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAhwCAAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T10:11:20.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Profile.aspx",
-              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Profile.aspx",
-              "RelativeDocumentMoniker": "Foodie\\Users\\Profile.aspx",
-              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Profile.aspx",
-              "RelativeToolTip": "Foodie\\Users\\Profile.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-03T18:16:52.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Registiration.aspx",
-              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Registiration.aspx",
-              "RelativeDocumentMoniker": "Foodie\\Users\\Registiration.aspx",
-              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Registiration.aspx",
-              "RelativeToolTip": "Foodie\\Users\\Registiration.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-01T06:12:03.693Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Admin.Master",
-              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Admin.Master",
-              "RelativeDocumentMoniker": "Foodie\\Admin\\Admin.Master",
-              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Admin.Master",
-              "RelativeToolTip": "Foodie\\Admin\\Admin.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-05-28T04:01:21.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "Product.aspx",
               "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Product.aspx",
               "RelativeDocumentMoniker": "Foodie\\Admin\\Product.aspx",
@@ -296,81 +201,204 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Users.aspx",
-              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Users.aspx",
-              "RelativeDocumentMoniker": "Foodie\\Admin\\Users.aspx",
-              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Users.aspx",
-              "RelativeToolTip": "Foodie\\Admin\\Users.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-03T09:47:30.604Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Dashboard.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Dashboard.aspx.cs",
-              "RelativeDocumentMoniker": "Foodie\\Admin\\Dashboard.aspx.cs",
-              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Dashboard.aspx.cs",
-              "RelativeToolTip": "Foodie\\Admin\\Dashboard.aspx.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAUwBIAAAAqAAAA",
+              "DocumentIndex": 6,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "Foodie\\Users\\Login.aspx.cs",
+              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Login.aspx.cs",
+              "RelativeToolTip": "Foodie\\Users\\Login.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T04:13:59.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-03T14:39:41.496Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 3,
               "Title": "Product.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Product.aspx.cs",
               "RelativeDocumentMoniker": "Foodie\\Admin\\Product.aspx.cs",
               "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Product.aspx.cs",
               "RelativeToolTip": "Foodie\\Admin\\Product.aspx.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAAACIAAAAMAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAAE8AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-31T06:52:32.024Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Admin.Master.cs",
-              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Admin.Master.cs",
-              "RelativeDocumentMoniker": "Foodie\\Admin\\Admin.Master.cs",
-              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Admin.Master.cs",
-              "RelativeToolTip": "Foodie\\Admin\\Admin.Master.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAcwB8AAAA1AAAA",
+              "DocumentIndex": 0,
+              "Title": "Invoice.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Invoice.aspx.cs",
+              "RelativeDocumentMoniker": "Foodie\\Users\\Invoice.aspx.cs",
+              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Invoice.aspx.cs",
+              "RelativeToolTip": "Foodie\\Users\\Invoice.aspx.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAAEYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T17:48:05.124Z",
+              "WhenOpened": "2024-06-10T19:42:24.533Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Category.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Category.aspx.cs",
-              "RelativeDocumentMoniker": "Foodie\\Admin\\Category.aspx.cs",
-              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Category.aspx.cs",
-              "RelativeToolTip": "Foodie\\Admin\\Category.aspx.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAmwB0AAAARAAAA",
+              "DocumentIndex": 5,
+              "Title": "Payment.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Payment.aspx.cs",
+              "RelativeDocumentMoniker": "Foodie\\Users\\Payment.aspx.cs",
+              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Payment.aspx.cs",
+              "RelativeToolTip": "Foodie\\Users\\Payment.aspx.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAUwJEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T11:20:39.329Z",
+              "WhenOpened": "2024-06-09T02:37:28.588Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.Master.cs",
+              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\User.Master.cs",
+              "RelativeDocumentMoniker": "Foodie\\Users\\User.Master.cs",
+              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\User.Master.cs",
+              "RelativeToolTip": "Foodie\\Users\\User.Master.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowCIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T14:05:42.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Menu.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Menu.aspx.cs",
+              "RelativeDocumentMoniker": "Foodie\\Users\\Menu.aspx.cs",
+              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Menu.aspx.cs",
+              "RelativeToolTip": "Foodie\\Users\\Menu.aspx.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAuwDgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T13:15:28.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Admin.Master",
+              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Admin.Master",
+              "RelativeDocumentMoniker": "Foodie\\Admin\\Admin.Master",
+              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Admin.Master",
+              "RelativeToolTip": "Foodie\\Admin\\Admin.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-28T04:01:21.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.Master",
+              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\User.Master",
+              "RelativeDocumentMoniker": "Foodie\\Users\\User.Master",
+              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\User.Master",
+              "RelativeToolTip": "Foodie\\Users\\User.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-27T13:09:27.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Login.aspx",
+              "RelativeDocumentMoniker": "Foodie\\Users\\Login.aspx",
+              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Login.aspx",
+              "RelativeToolTip": "Foodie\\Users\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-03T14:16:14.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Menu.aspx",
+              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Menu.aspx",
+              "RelativeDocumentMoniker": "Foodie\\Users\\Menu.aspx",
+              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Menu.aspx",
+              "RelativeToolTip": "Foodie\\Users\\Menu.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-27T13:45:40.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Cart.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Cart.aspx.cs",
+              "RelativeDocumentMoniker": "Foodie\\Users\\Cart.aspx.cs",
+              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Cart.aspx.cs",
+              "RelativeToolTip": "Foodie\\Users\\Cart.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T20:25:29.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Cart.aspx",
+              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Cart.aspx",
+              "RelativeDocumentMoniker": "Foodie\\Users\\Cart.aspx",
+              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Cart.aspx",
+              "RelativeToolTip": "Foodie\\Users\\Cart.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-07T08:10:16.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Web.config",
+              "RelativeDocumentMoniker": "Foodie\\Web.config",
+              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Web.config",
+              "RelativeToolTip": "Foodie\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-10T15:14:40.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "Foodie\\Users\\Default.aspx.cs",
+              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Default.aspx.cs",
+              "RelativeToolTip": "Foodie\\Users\\Default.aspx.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAmwBwAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T03:48:49.594Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "Category.aspx",
-              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Category.aspx",
-              "RelativeDocumentMoniker": "Foodie\\Admin\\Category.aspx",
-              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Category.aspx",
-              "RelativeToolTip": "Foodie\\Admin\\Category.aspx",
+              "Title": "custom.js",
+              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\TemplateFiles\\js\\custom.js",
+              "RelativeDocumentMoniker": "Foodie\\TemplateFiles\\js\\custom.js",
+              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\TemplateFiles\\js\\custom.js",
+              "RelativeToolTip": "Foodie\\TemplateFiles\\js\\custom.js",
+              "ViewState": "AQIAAEcAAAAAAAAAAABQwFIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-07T19:20:22.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Registiration.aspx",
+              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Registiration.aspx",
+              "RelativeDocumentMoniker": "Foodie\\Users\\Registiration.aspx",
+              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Registiration.aspx",
+              "RelativeToolTip": "Foodie\\Users\\Registiration.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-05-29T04:02:51.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-01T06:12:03.693Z"
             },
             {
               "$type": "Document",
@@ -387,7 +415,115 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Category.aspx",
+              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Category.aspx",
+              "RelativeDocumentMoniker": "Foodie\\Admin\\Category.aspx",
+              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Category.aspx",
+              "RelativeToolTip": "Foodie\\Admin\\Category.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-29T04:02:51.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Category.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Category.aspx.cs",
+              "RelativeDocumentMoniker": "Foodie\\Admin\\Category.aspx.cs",
+              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Category.aspx.cs",
+              "RelativeToolTip": "Foodie\\Admin\\Category.aspx.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAIBJwDEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T11:20:39.329Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 23,
+              "Title": "Registiration.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Registiration.aspx.cs",
+              "RelativeDocumentMoniker": "Foodie\\Users\\Registiration.aspx.cs",
+              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Registiration.aspx.cs",
+              "RelativeToolTip": "Foodie\\Users\\Registiration.aspx.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAABQwBQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T03:45:52.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Profile.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Profile.aspx.cs",
+              "RelativeDocumentMoniker": "Foodie\\Users\\Profile.aspx.cs",
+              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Profile.aspx.cs",
+              "RelativeToolTip": "Foodie\\Users\\Profile.aspx.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAlwC0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T04:23:47.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Users.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Users.aspx.cs",
+              "RelativeDocumentMoniker": "Foodie\\Admin\\Users.aspx.cs",
+              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Users.aspx.cs",
+              "RelativeToolTip": "Foodie\\Admin\\Users.aspx.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAhwCAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T10:11:20.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Profile.aspx",
+              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Profile.aspx",
+              "RelativeDocumentMoniker": "Foodie\\Users\\Profile.aspx",
+              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Profile.aspx",
+              "RelativeToolTip": "Foodie\\Users\\Profile.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-03T18:16:52.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Users.aspx",
+              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Users.aspx",
+              "RelativeDocumentMoniker": "Foodie\\Admin\\Users.aspx",
+              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Users.aspx",
+              "RelativeToolTip": "Foodie\\Admin\\Users.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-03T09:47:30.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Dashboard.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Dashboard.aspx.cs",
+              "RelativeDocumentMoniker": "Foodie\\Admin\\Dashboard.aspx.cs",
+              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Dashboard.aspx.cs",
+              "RelativeToolTip": "Foodie\\Admin\\Dashboard.aspx.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAUwBIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T04:13:59.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Admin.Master.cs",
+              "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Admin.Master.cs",
+              "RelativeDocumentMoniker": "Foodie\\Admin\\Admin.Master.cs",
+              "ToolTip": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Admin.Master.cs",
+              "RelativeToolTip": "Foodie\\Admin\\Admin.Master.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAcwB8AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T17:48:05.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "About.aspx",
               "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\About.aspx",
               "RelativeDocumentMoniker": "Foodie\\Users\\About.aspx",
@@ -395,12 +531,11 @@
               "RelativeToolTip": "Foodie\\Users\\About.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-05-27T14:21:07.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T14:21:07.106Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 31,
               "Title": "Contact.aspx",
               "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\Contact.aspx",
               "RelativeDocumentMoniker": "Foodie\\Users\\Contact.aspx",
@@ -408,12 +543,11 @@
               "RelativeToolTip": "Foodie\\Users\\Contact.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-05-27T14:24:20.926Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T14:24:20.926Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 30,
               "Title": "Dashboard.aspx",
               "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Admin\\Dashboard.aspx",
               "RelativeDocumentMoniker": "Foodie\\Admin\\Dashboard.aspx",
@@ -421,12 +555,11 @@
               "RelativeToolTip": "Foodie\\Admin\\Dashboard.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-05-28T04:19:14.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T04:19:14.71Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 33,
               "Title": "SliderUserControl.ascx",
               "DocumentMoniker": "C:\\Users\\Jafar\\MyGitHub\\Foodie-Project\\Foodie\\Foodie\\Users\\SliderUserControl.ascx",
               "RelativeDocumentMoniker": "Foodie\\Users\\SliderUserControl.ascx",

@@ -24,10 +24,13 @@ namespace Foodie.Users
             if (Session["UserID"] != null)
             {
                 lbLoginOrLogout.Text = "Logout";
+                clsUtils utils = new clsUtils();
+                Session["cartCount"] = utils.cartCount(Convert.ToInt32(Session["UserID"]));
             }
             else
             {
                 lbLoginOrLogout.Text = "Login";
+                Session["cartCount"] = "0";
             }
         }
 

@@ -11,7 +11,7 @@ namespace Foodie.Users
 {
 
 
-    public partial class Menu
+    public partial class Invoice
     {
 
         /// <summary>
@@ -24,21 +24,21 @@ namespace Foodie.Users
         protected global::System.Web.UI.WebControls.Label lblMsg;
 
         /// <summary>
-        /// rCategory control.
+        /// rOrderItem control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater rCategory;
+        protected global::System.Web.UI.WebControls.Repeater rOrderItem;
 
         /// <summary>
-        /// rProduct control.
+        /// lbDownloadInvoice control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater rProduct;
+        protected global::System.Web.UI.WebControls.LinkButton lbDownloadInvoice;
     }
 }

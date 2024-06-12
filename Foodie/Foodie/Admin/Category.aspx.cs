@@ -55,7 +55,7 @@ namespace Foodie.Admin
             hfCategoryID.Value = "0";
             btnAddOrUpdate.Text = "Add";
             imagePreview.ImageUrl = string.Empty;
-            lblMsg.Text = string.Empty;
+            
             
         }
         protected void btnAddOrUpdate_Click(object sender, EventArgs e)
@@ -105,7 +105,7 @@ namespace Foodie.Admin
                     lblMsg.Text = "Category " + ActionName + " Successfully";
                     lblMsg.CssClass = "alert alert-success";
                     GetCategories();
-                    //Clear();
+                    Clear();
                 }
                 catch (Exception ex)
                 {

@@ -57,3 +57,4 @@ C:\Users\Jafar\MyGitHub\Foodie-Project\Foodie\Foodie\obj\Debug\Foodie.csproj.Cor
 C:\Users\Jafar\MyGitHub\Foodie-Project\Foodie\Foodie\obj\Debug\Foodie.csproj.Up2Date
 C:\Users\Jafar\MyGitHub\Foodie-Project\Foodie\Foodie\obj\Debug\Foodie.dll
 C:\Users\Jafar\MyGitHub\Foodie-Project\Foodie\Foodie\obj\Debug\Foodie.pdb
+C:\Users\Jafar\MyGitHub\Foodie-Project\Foodie\Foodie\bin\itextsharp.dll

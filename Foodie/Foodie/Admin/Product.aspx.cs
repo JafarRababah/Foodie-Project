@@ -57,7 +57,7 @@ namespace Foodie.Admin
             hfProductID.Value = "0";
             btnAddOrUpdate.Text = "Add";
             imagePreview.ImageUrl = string.Empty;
-            lblMsg.Text = string.Empty;
+            
 
         }
         protected void btnAddOrUpdate_Click(object sender, EventArgs e)
@@ -112,7 +112,7 @@ namespace Foodie.Admin
                     lblMsg.Text = "Product " + ActionName + " Successfully";
                     lblMsg.CssClass = "alert alert-success";
                     GetProducts();
-                    //Clear();
+                    Clear();
                 }
                 catch (Exception ex)
                 {
