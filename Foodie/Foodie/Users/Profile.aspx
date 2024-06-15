@@ -11,7 +11,7 @@
         <div class="container">
             <div class="heading_container">
                 <div class="align-self-end">
-                    <asp:label runat="server" ID="lblMsg"></asp:label>
+                    <asp:Label runat="server" ID="lblMsg"></asp:Label>
                 </div>
                 <h2>User Information</h2>
             </div>
@@ -22,7 +22,7 @@
                             <div class="card-title ab-4">
                                 <div class="d-flex justify-content-start">
                                     <div class="image-container">
-                                         <img src="<%# Foodie.clsUtils.GetImageUrl(Session["UserImage"].ToString())%>" class="img-thumbnail" id="imgProfile" style="width: 150px; height: 150px;" />
+                                        <img src="<%# Foodie.clsUtils.GetImageUrl(Session["UserImage"].ToString())%>" class="img-thumbnail" id="imgProfile" style="width: 150px; height: 150px;" />
                                     </div>
                                     <div class="middle pt-2">
                                         <a href="Registiration.aspx?UserID=<%Response.Write(Session["UserID"]);%>" class="btn btn-warning">
@@ -75,7 +75,7 @@
                                 <%-- Basic User Info --%>
                                 <div class="tab-pane fade show active" id="basicInfo" role="tabpanel" aria-labelledby="basicInfo-tab">
                                     <asp:Repeater ID="rUserProfile" runat="server">
-                                        <itemtemplate>
+                                        <ItemTemplate>
                                             <div class="row">
                                                 <div class="col-sm-3 col-md-2 col-5">
                                                     <label style="font-weight: bold;">Full Name</label>
@@ -130,15 +130,77 @@
                                                 </div>
                                             </div>
                                             <hr />
-                                        </itemtemplate>
+                                        </ItemTemplate>
                                     </asp:Repeater>
                                 </div>
-                                     <%-- End Basic User Info --%>
+                                <%-- End Basic User Info --%>
                                 <%-- start History --%>
                                 <div class="tab-pane fade" id="connectedServices" role="tabpanel" aria-labelledby="ConnectedServices-tab">
-                                    <h3>Order History</h3>
+                                    <asp:Repeater ID="rPurchaseHistory" runat="server" OnItemDataBound="rPurchaseHistory_ItemDataBound">
+                                        <ItemTemplate>
+                                            <div class="container">
+                                                <div class="row pt-1 pb-1" style="background-color: lightgray">
+                                                    <div class="col-4">
+                                                        <span class="badge badge-pill badge-danger text-white">
+                                                            <%#Eval("SrNo") %>
+                                                        </span>
+                                                        Payment Mode:<%#Eval("PaymentMode").ToString()=="cod"?"Cash on Delivery":Eval("PaymentMode").ToString().ToUpper() %></div>
+                                                    <div class="col-6">
+                                                        <%#string.IsNullOrEmpty( Eval("CardNo").ToString())?"":"CardNo: "+ Eval("CardNo")%>
+                                                    </div>
+                                                    <div class="col-2" style="text-align:end">
+                                                        <a href="Invoice.aspx?PaymentID=<%#Eval("PaymentID")%>"><i class="fa fa-download mr-2"></i>Invoice</a>
+                                                    </div>
+                                                </div>
+                                                <asp:HiddenField ID="hdnPaymentID" runat="server" Value='<%#Eval("PaymentID")%>'/>
+                                                <asp:Repeater ID="rOrders" runat="server">
+                                                    <HeaderTemplate>
+                                                        <table>
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>ProductName</th>
+                                                                    <th>Unit Price</th>
+                                                                    <th>Qty</th>
+                                                                    <th>Total Price</th>
+                                                                    <th>OrderId</th>
+                                                                    <th>Status</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                    </HeaderTemplate>
+                                                    <ItemTemplate>
+                                                        <tr>
+                                                            <td>
+                                                                <asp:Label ID="lblProductName" runat="server" Text='<%#Eval("ProductName")%>'></asp:Label>
+                                                            </td>
+                                                            <td>
+                                                                <asp:Label ID="Label1" runat="server" Text='<%#string.IsNullOrEmpty( Eval("Price").ToString())?"":"$"+ Eval("Price")%>'></asp:Label>
+                                                            </td>
+                                                            <td>
+                                                                <asp:Label ID="Label2" runat="server" Text='<%#Eval("Quantity") %>'></asp:Label>
+                                                            </td>
+                                                            <td>
+                                                                <asp:Label ID="Label3" runat="server" Text='<%#Eval("TotalPrice") %>'></asp:Label>
+                                                            </td>
+                                                            <td>
+                                                                <asp:Label ID="Label4" runat="server" Text='<%#Eval("OrderNo") %>'></asp:Label>
+                                                            </td>
+                                                            <td>
+                                                                <asp:Label ID="Label5" runat="server" Text='<%#Eval("Status") %>'
+                                                                    Cssclass='<%#Eval("Status").ToString()=="Delivered"?"badge badge-success":"badge badge-warning"%>'></asp:Label>
+                                                            </td>
+                                                        </tr>
+                                                    </ItemTemplate>
+                                                    <FooterTemplate>
+                                                        </tbody>
+                                                         </table>
+                                                    </FooterTemplate>
+                                                </asp:Repeater>
+                                            </div>
+                                        </ItemTemplate>
+                                    </asp:Repeater>
                                 </div>
-                                   <%-- End History --%>
+                                <%-- End History --%>
                             </div>
                         </div>
                     </div>

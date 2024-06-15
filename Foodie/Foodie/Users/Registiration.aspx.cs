@@ -83,7 +83,7 @@ namespace Foodie.Users
             cmd = new SqlCommand("sp_User", con);
             cmd.Parameters.AddWithValue("@Action", UserID == 0 ? "Insert" : "Update");
             cmd.Parameters.AddWithValue("@UserID", UserID);
-            cmd.Parameters.AddWithValue("@Name", txtName.Text.Trim());
+            cmd.Parameters.AddWithValue("@FullName", txtName.Text.Trim());
             cmd.Parameters.AddWithValue("@Username", txtUsername.Text.Trim());
             cmd.Parameters.AddWithValue("@Mobile", txtMobile.Text.Trim());
             cmd.Parameters.AddWithValue("@Email", txtEmail.Text.Trim());

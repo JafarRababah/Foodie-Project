@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Web;
 using System.Configuration;
+using System.Drawing;
 
 namespace Foodie
 {
@@ -95,6 +96,38 @@ namespace Foodie
             string uniqueid= guid.ToString();
             return uniqueid;
         }
+       
     }
-
+    public class DashboardCount
+    {
+        SqlConnection con;
+        SqlCommand cmd;
+        SqlDataAdapter adapter;
+        SqlDataReader reader;
+        DataTable dt;
+        public int Count(string name)
+        {
+            int count = 0;
+            con = new SqlConnection(clsUtils.GetConnection());
+            cmd = new SqlCommand("sp_Dashboard", con);
+            cmd.Parameters.AddWithValue("@Action", name);
+            cmd.CommandType = CommandType.StoredProcedure;
+            con.Open();
+            reader= cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                if (reader[0] == DBNull.Value)
+                {
+                    count = 0;
+                }
+                else
+                {
+                    count = Convert.ToInt32(reader[0]);
+                }
+            }
+            reader.Close();
+            con.Close();
+            return count;
+        }  
+    }
 }

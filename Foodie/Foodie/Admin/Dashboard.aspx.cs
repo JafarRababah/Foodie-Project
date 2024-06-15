@@ -18,6 +18,18 @@ namespace Foodie.Admin
                 {
                     Response.Redirect("../Users/Login.aspx");
                 }
+                else
+                {
+                    DashboardCount dashboard = new DashboardCount();
+                    Session["Category"] = dashboard.Count("Category");
+                    Session["Product"] = dashboard.Count("Product");
+                    Session["Order"] = dashboard.Count("Order");
+                    Session["Delivered"] = dashboard.Count("Delivered");
+                    Session["Pending"] = dashboard.Count("Pending");
+                    Session["User"] = dashboard.Count("User");
+                    Session["SoldAmount"] = dashboard.Count("SoldAmount");
+                    Session["Contact"] = dashboard.Count("Contact");
+                }
             }
         }
     }

@@ -159,6 +159,7 @@ namespace Foodie.Users
             cmd = new SqlCommand("sp_Product",sqlConnection,sqlTransaction);
             cmd.Parameters.AddWithValue("@Action", "GetQtyByID");
             cmd.Parameters.AddWithValue("@ProductID", _productID);
+            //cmd.Parameters.AddWithValue("@Quantity", _quantity);
             cmd.CommandType = CommandType.StoredProcedure;
             try
             {
@@ -184,6 +185,7 @@ namespace Foodie.Users
             {
                 Response.Write("<script>alert('Update Error :" + ex.Message + "');</script>");
             }
+            finally { cmd.Dispose(); }
             
         }
         void DeleteCartItem(int _productID,  SqlTransaction sqlTransaction, SqlConnection sqlConnection)

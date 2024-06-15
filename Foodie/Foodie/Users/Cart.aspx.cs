@@ -18,6 +18,7 @@ namespace Foodie.Users
         SqlDataAdapter adapter;
         DataTable dt;
         decimal grandTotal = 0;
+        clsUtils utils = new clsUtils();
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
@@ -82,39 +83,11 @@ namespace Foodie.Users
                 }
             if (e.CommandName == "updateCart")
             {
-                bool isCartUpdated = false;
-                for (int item = 0; item < rCartItem.Items.Count; item++)
-                {
-                    if (rCartItem.Items[item].ItemType == ListItemType.Item || rCartItem.Items[item].ItemType == ListItemType.AlternatingItem)
-                    {
-                        TextBox quantity = rCartItem.Items[item].FindControl("txtQuantity") as TextBox;
-                        HiddenField _productid = rCartItem.Items[item].FindControl("hdnProductID") as HiddenField;
-                        HiddenField _quantity = rCartItem.Items[item].FindControl("hdnQuantity") as HiddenField;
-                        int quantityFromCart = Convert.ToInt32(quantity.Text);
-                        int productID = Convert.ToInt32(_productid.Value);
-                        int quantityFromDB = Convert.ToInt32(_quantity.Value);
-                        bool isTrue = false;
-                        int updateedQuantity = 1;
-                        if (quantityFromCart > quantityFromDB)
-                        {
-                            updateedQuantity = quantityFromCart;
-                            isTrue = true;
-                        }
-                        else if (quantityFromCart < quantityFromDB)
-                        {
-                            updateedQuantity = quantityFromCart;
-                            isTrue = true;
-                        }
-                        if (isTrue)
-                        {
-                            isCartUpdated = utils.UpdateCartQuantity(updateedQuantity, productID, Convert.ToInt32(Session["UserID"]));
-                        }
-                    }
-                }
-                GetCarts();
+                UpdateQty();
             }
             if (e.CommandName == "checkout")
             {
+                UpdateQty();
                 bool isTrue = false;
                 string pName = string.Empty;
                 for (int item = 0; item < rCartItem.Items.Count; item++)
@@ -181,6 +154,39 @@ namespace Foodie.Users
                     container.Controls.Add(footer);
                 }
             }
+        }
+        protected void UpdateQty()
+        {
+            bool isCartUpdated = false;
+            for (int item = 0; item < rCartItem.Items.Count; item++)
+            {
+                if (rCartItem.Items[item].ItemType == ListItemType.Item || rCartItem.Items[item].ItemType == ListItemType.AlternatingItem)
+                {
+                    TextBox quantity = rCartItem.Items[item].FindControl("txtQuantity") as TextBox;
+                    HiddenField _productid = rCartItem.Items[item].FindControl("hdnProductID") as HiddenField;
+                    HiddenField _quantity = rCartItem.Items[item].FindControl("hdnQuantity") as HiddenField;
+                    int quantityFromCart = Convert.ToInt32(quantity.Text);
+                    int productID = Convert.ToInt32(_productid.Value);
+                    int quantityFromDB = Convert.ToInt32(_quantity.Value);
+                    bool isTrue = false;
+                    int updateedQuantity = 1;
+                    if (quantityFromCart > quantityFromDB)
+                    {
+                        updateedQuantity = quantityFromCart;
+                        isTrue = true;
+                    }
+                    else if (quantityFromCart < quantityFromDB)
+                    {
+                        updateedQuantity = quantityFromCart;
+                        isTrue = true;
+                    }
+                    if (isTrue)
+                    {
+                        isCartUpdated = utils.UpdateCartQuantity(updateedQuantity, productID, Convert.ToInt32(Session["UserID"]));
+                    }
+                }
+            }
+            GetCarts();
         }
 
     }

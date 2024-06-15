@@ -16,7 +16,6 @@
       <div class="img-box">
           <a href="Menu.aspx?CategoryID=<%#Eval("CategoryID")%>">
         <img src="<%#Foodie.clsUtils.GetImageUrl(Eval("CategoryImage"))%>" alt="">
-              
      </a>
               </div>
       <div class="detail-box">

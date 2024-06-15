@@ -54,21 +54,23 @@ namespace Foodie.Users
             adapter = new SqlDataAdapter(cmd);
             dt = new DataTable();
             adapter.Fill(dt);
+            //dt.Columns.Add("TotalPrice", typeof(double));
+           // DataRow dr = dt.NewRow();
 
+            
             if (dt.Rows.Count > 0)
             {
                 foreach(DataRow row in dt.Rows)
                 {
+                    
                     grandTotal += Convert.ToDouble(row["TotalPrice"]);
+                    
+                    
                 }
             }
-            dt.Columns.Add("TotalPrice", typeof(double));
             DataRow dr = dt.NewRow();
-            
             dr["TotalPrice"] = grandTotal;
-            
-            dt.Rows.Add(dr);
-            
+             dt.Rows.Add(dr);
             return dt;
         }
 

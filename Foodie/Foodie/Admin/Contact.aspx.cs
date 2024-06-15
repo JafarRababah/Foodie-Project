@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Data;
-using System.Drawing;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Foodie.Users;
 
 namespace Foodie.Admin
 {
-    public partial class Users : System.Web.UI.Page
+    public partial class Contact : System.Web.UI.Page
     {
         SqlConnection con;
         SqlCommand cmd;
@@ -20,42 +20,27 @@ namespace Foodie.Admin
         {
             if (!IsPostBack)
             {
-                Session["breadCrum"] = "User";
+                Session["breadCrum"] = "Contact User";
                 if (Session["Admin"] == null)
                 {
                     Response.Redirect("../Users/Login.aspx");
                 }
                 else
                 {
-                    GetUsers();
-                    lblMsg.Visible = false;
+                    GetContacts();
                 }
             }
-            
-            
         }
-        void GetUsers()
+        protected void rContacts_ItemCommand(object source, RepeaterCommandEventArgs e)
         {
-            con = new SqlConnection(clsUtils.GetConnection());
-            cmd = new SqlCommand("sp_User", con);
-            cmd.Parameters.AddWithValue("@Action", "Select4Admin");
-            cmd.CommandType = CommandType.StoredProcedure;
-            adapter = new SqlDataAdapter(cmd);
-            dt = new DataTable();
-            adapter.Fill(dt);
-            rUser.DataSource = dt;
-            rUser.DataBind();
-        }
-        protected void rUser_ItemCommand(object source, RepeaterCommandEventArgs e)
-        {
-           // lblMsg.Visible = false;
             
-             if (e.CommandName == "delete")
+            
+            if (e.CommandName == "delete")
             {
                 con = new SqlConnection(clsUtils.GetConnection());
-                cmd = new SqlCommand("sp_User", con);
+                cmd = new SqlCommand("sp_Contact", con);
                 cmd.Parameters.AddWithValue("@Action", "Delete");
-                cmd.Parameters.AddWithValue("@UserID", e.CommandArgument);
+                cmd.Parameters.AddWithValue("@ContactID", e.CommandArgument);
                 cmd.CommandType = CommandType.StoredProcedure;
 
 
@@ -65,9 +50,9 @@ namespace Foodie.Admin
                     cmd.ExecuteNonQuery();
 
                     lblMsg.Visible = true;
-                    lblMsg.Text = "User Deleted Successfully";
+                    lblMsg.Text = "Record Deleted Successfully";
                     lblMsg.CssClass = "alert alert-success";
-                    GetUsers();
+                    GetContacts();
                     //Clear();
                 }
                 catch (Exception ex)
@@ -78,7 +63,20 @@ namespace Foodie.Admin
                 }
                 finally { con.Close(); }
             }
-
+            
         }
+        void GetContacts()
+        {
+            con = new SqlConnection(clsUtils.GetConnection());
+            cmd = new SqlCommand("sp_Contact", con);
+            cmd.Parameters.AddWithValue("@Action", "Select");
+            cmd.CommandType = CommandType.StoredProcedure;
+            adapter = new SqlDataAdapter(cmd);
+            dt = new DataTable();
+            adapter.Fill(dt);
+            rContacts.DataSource = dt;
+            rContacts.DataBind();
+        }
+
     }
 }

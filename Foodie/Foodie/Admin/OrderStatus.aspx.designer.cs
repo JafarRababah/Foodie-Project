@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Foodie.Users
+namespace Foodie.Admin
 {
 
 
-    public partial class Profile
+    public partial class OrderStatus
     {
 
         /// <summary>
@@ -24,48 +24,66 @@ namespace Foodie.Users
         protected global::System.Web.UI.WebControls.Label lblMsg;
 
         /// <summary>
-        /// lblUsername control.
+        /// rOrderStatus control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblUsername;
+        protected global::System.Web.UI.WebControls.Repeater rOrderStatus;
 
         /// <summary>
-        /// lblEmail control.
+        /// pUpdateOrderStatus control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblEmail;
+        protected global::System.Web.UI.WebControls.Panel pUpdateOrderStatus;
 
         /// <summary>
-        /// lblCreatedDate control.
+        /// ddlOrderStatus control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCreatedDate;
+        protected global::System.Web.UI.WebControls.DropDownList ddlOrderStatus;
 
         /// <summary>
-        /// rUserProfile control.
+        /// rfvOrderStatus control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater rUserProfile;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvOrderStatus;
 
         /// <summary>
-        /// rPurchaseHistory control.
+        /// hdnID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater rPurchaseHistory;
+        protected global::System.Web.UI.WebControls.HiddenField hdnID;
+
+        /// <summary>
+        /// btnUpdate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnUpdate;
+
+        /// <summary>
+        /// btnCancel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnCancel;
     }
 }

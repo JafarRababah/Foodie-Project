@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Foodie.Users
+namespace Foodie.Admin
 {
 
 
-    public partial class Profile
+    public partial class Report
     {
 
         /// <summary>
@@ -24,48 +24,66 @@ namespace Foodie.Users
         protected global::System.Web.UI.WebControls.Label lblMsg;
 
         /// <summary>
-        /// lblUsername control.
+        /// rfvFromDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblUsername;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvFromDate;
 
         /// <summary>
-        /// lblEmail control.
+        /// txtFromDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblEmail;
+        protected global::System.Web.UI.WebControls.TextBox txtFromDate;
 
         /// <summary>
-        /// lblCreatedDate control.
+        /// rfvToDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCreatedDate;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvToDate;
 
         /// <summary>
-        /// rUserProfile control.
+        /// txtToDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater rUserProfile;
+        protected global::System.Web.UI.WebControls.TextBox txtToDate;
 
         /// <summary>
-        /// rPurchaseHistory control.
+        /// btnSearch control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater rPurchaseHistory;
+        protected global::System.Web.UI.WebControls.Button btnSearch;
+
+        /// <summary>
+        /// rReport control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater rReport;
+
+        /// <summary>
+        /// lblTotal control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblTotal;
     }
 }

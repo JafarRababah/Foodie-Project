@@ -42,6 +42,7 @@
                                     <div class="row">
                                         <div class="col-sm-6 col-md-4 col-lg-4">
                                             <h4 class="sub-title">Category</h4>
+                                            <div>
                                             <div class="form-group">
                                                 <label>Category Name</label>
                                                 <div>
@@ -66,14 +67,14 @@
                                             </div>
 
                                             <div class="pb-5">
-                                                <div class="text-left">
+                                                
                                                     <asp:Button ID="btnAddOrUpdate" runat="server" CssClass="btn btn-info" Text="Add"  CausesValidation="True" OnClick="btnAddOrUpdate_Click" />
                                                     <asp:Button ID="btnClear" runat="server" CssClass="btn btn-dark" Text="Reset" CausesValidation="false" OnClick="btnClear_Click" />
                                                 </div>
 
                                                 <div>
                                                     <asp:Image ID="imagePreview" CssClass="img-thumbnail" runat="server" />
-
+                                                    
                                                 </div>
                                             </div>
                                         </div>
@@ -102,10 +103,10 @@
                                                             <td>
                                                               <img width="40" src="<%# Foodie.clsUtils.GetImageUrl(Eval("CategoryImage")) %>" alt="image" />
                                                             </td>
-                                                           <%-- <td>
-                                                                <asp:Label ID="lblIsActive" runat="server" Text="<%Eval("IsActive")%>"></asp:Label>
-                                                            </td>--%>
-                                                            <td><%#Eval("IsActive")%></td>
+                                                            <td>
+                                                                <asp:Label ID="lblIsActive" runat="server" Text='<%#Eval("IsActive")%>'></asp:Label>
+                                                            </td>
+                                                            <%--<td><%#Eval("IsActive")%></td>--%>
                                                             <td><%#Eval("CreateDate")%></td>
                                                             <td>   <asp:LinkButton ID="lbEdit" runat="server" CssClass="badge badge-primary"
                                                          CommandArgument='<%# Eval("CategoryID") %>' CommandName="edit" CausesValidation="False"><i class="ti-pencil"></i></asp:LinkButton>

@@ -57,7 +57,6 @@ namespace Foodie.Users
             
             if (Session["UserID"] != null)
             {
-                lblMsg.Text = "Hello";
                 bool isCartItemUpdated = false;
                 int i = isItemExistInCart(Convert.ToInt32(e.CommandArgument));
                 if (i == 0)
