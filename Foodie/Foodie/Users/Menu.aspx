@@ -15,24 +15,22 @@
         </h2>
       </div>
 
-      <ul class="filters_menu">
-        <li class="active" data-filter="*">All</li>
-            <asp:Repeater ID="rCategory" runat="server">
-              <ItemTemplate>
-<%--                  <li data-filter=".<%#Eval("CategoryName").ToString().ToLower()%>"><%#Eval("CategoryName")%></li>--%>
-                  <li data-filter='.<%#Regex.Replace(Eval("CategoryName").ToString().ToLower(),@"\s+","")%>'><%#Eval("CategoryName")%></li>
-                      
-                  
-              </ItemTemplate>
-          </asp:Repeater>
-             
-      </ul>
+       <ul class="filters_menu">
+    <li class="active" data-filter="*" data-id="0">All</li>
+        <asp:Repeater ID="rCategory" runat="server">
+            <ItemTemplate>
+               <li data-filter=".<%#Regex.Replace(Eval("CategoryName").ToString().ToLower(),@"\s+","")%>"
+                    data-id="<%#Eval("CategoryID")%>"><%#Eval("CategoryName")%></li>
+            </ItemTemplate>
+        </asp:Repeater>
+</ul>
+                
 
       <div class="filters-content">
         <div class="row grid">
-            <asp:Repeater ID="rProduct" runat="server">
+            <asp:Repeater ID="rProduct" runat="server" OnItemCommand= "rProduct_ItemCommand">
                 <ItemTemplate>
-                      <div class="col-sm-6 col-lg-4 all <%#Regex.Replace(Eval("CategoryName").ToString().ToUpper(),@"\s+","")%>">
+                      <div class="col-sm-6 col-lg-4 all <%#Regex.Replace(Eval("CatName").ToString().ToUpper(),@"\s+","")%>">
     <div class="box">
       <div>
         <div class="img-box">
@@ -45,8 +43,8 @@
             </p>
             <div class="options">
                 <h6><%# Eval("Price") %></h6>
-                <asp:LinkButton ID="lbAddToCart" CommandName="addToCart" CommandArgument='<%#Eval("ProductID")%>' 
-                    runat="server" OnItemCommand="rProduct_ItemCommand">
+                <asp:LinkButton ID="lbAddToCart" CommandArgument='<%#Eval("ProductID")%>' CommandName="addToCart"
+                     runat="server" CausesValidation="False">
                      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
                         <g>
                           <g>

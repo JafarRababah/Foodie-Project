@@ -24,37 +24,8 @@ namespace Foodie.Users
                 GetProducts();
             }
         }
-        void GetProducts()
-        {
-            con = new SqlConnection(clsUtils.GetConnection());
-            cmd = new SqlCommand("sp_Product", con);
-            cmd.Parameters.AddWithValue("@Action", "ActiveProd");
-            cmd.CommandType = CommandType.StoredProcedure;
-            adapter = new SqlDataAdapter(cmd);
-            dt = new DataTable();
-            adapter.Fill(dt);
-            rProduct.DataSource = dt;
-            rProduct.DataBind();
-        }
-        void GetCategories()
-        {
-            con = new SqlConnection(clsUtils.GetConnection());
-            cmd = new SqlCommand("sp_Category", con);
-            cmd.Parameters.AddWithValue("@Action", "ActiveCat");
-            cmd.CommandType = CommandType.StoredProcedure;
-            adapter = new SqlDataAdapter(cmd);
-            dt = new DataTable();
-            adapter.Fill(dt);
-            rCategory.DataSource = dt;
-            rCategory.DataBind();
-        }
-        //public string LowerCase(object obj)
-        //{
-        //    return obj.ToString().ToLower();
-        //}
         protected void rProduct_ItemCommand(object source, RepeaterCommandEventArgs e)
         {
-            
             if (Session["UserID"] != null)
             {
                 bool isCartItemUpdated = false;
@@ -87,7 +58,7 @@ namespace Foodie.Users
                     clsUtils utils = new clsUtils();
                     isCartItemUpdated = utils.UpdateCartQuantity(i + 1, Convert.ToInt32(e.CommandArgument),
                         Convert.ToInt32(Session["UserID"]));
-                    
+
                 }
                 lblMsg.Visible = true;
                 lblMsg.Text = "Item added successfully in your cart";
@@ -102,6 +73,35 @@ namespace Foodie.Users
             }
 
         }
+        void GetProducts()
+        {
+            con = new SqlConnection(clsUtils.GetConnection());
+            cmd = new SqlCommand("sp_Product", con);
+            cmd.Parameters.AddWithValue("@Action", "ActiveProd");
+            cmd.CommandType = CommandType.StoredProcedure;
+            adapter = new SqlDataAdapter(cmd);
+            dt = new DataTable();
+            adapter.Fill(dt);
+            rProduct.DataSource = dt;
+            rProduct.DataBind();
+        }
+        void GetCategories()
+        {
+            con = new SqlConnection(clsUtils.GetConnection());
+            cmd = new SqlCommand("sp_Category", con);
+            cmd.Parameters.AddWithValue("@Action", "ActiveCat");
+            cmd.CommandType = CommandType.StoredProcedure;
+            adapter = new SqlDataAdapter(cmd);
+            dt = new DataTable();
+            adapter.Fill(dt);
+            rCategory.DataSource = dt;
+            rCategory.DataBind();
+        }
+        //public string LowerCase(object obj)
+        //{
+        //    return obj.ToString().ToLower();
+        //}
+       
         int isItemExistInCart(int ProductID)
         {
             con = new SqlConnection(clsUtils.GetConnection());

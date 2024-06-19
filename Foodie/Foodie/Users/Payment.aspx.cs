@@ -157,7 +157,7 @@ namespace Foodie.Users
             
             int dbQuantity;
             cmd = new SqlCommand("sp_Product",sqlConnection,sqlTransaction);
-            cmd.Parameters.AddWithValue("@Action", "GetQtyByID");
+            cmd.Parameters.AddWithValue("@Action", "GetAllByID");
             cmd.Parameters.AddWithValue("@ProductID", _productID);
             //cmd.Parameters.AddWithValue("@Quantity", _quantity);
             cmd.CommandType = CommandType.StoredProcedure;
@@ -167,13 +167,23 @@ namespace Foodie.Users
                 while (rdr.Read())
                 {
                     dbQuantity = (int)rdr["Quantity"];
+                    string ProductName = (string)rdr["ProductName"];
+                    string Description = (string)rdr["Description"];
+                    decimal Price = (decimal)rdr["Price"];
+                    int CategoryID  = (int)rdr["CategoryID"];
+                    bool IsActive  = (bool)rdr["IsActive"];
                     if (dbQuantity > _quantity && dbQuantity > 2)
                     {
                         dbQuantity = dbQuantity - _quantity;
                         //cmd = new SqlCommand("sp_QtyUpdate", sqlConnection, sqlTransaction);
                         cmd = new SqlCommand("sp_Product", sqlConnection, sqlTransaction);
-                        cmd.Parameters.AddWithValue("@Action", "QtyUpdate");
+                        cmd.Parameters.AddWithValue("@Action", "Update");
                         cmd.Parameters.AddWithValue("@Quantity", dbQuantity);
+                        cmd.Parameters.AddWithValue("@ProductName", ProductName);
+                        cmd.Parameters.AddWithValue("@Description", Description);
+                        cmd.Parameters.AddWithValue("@Price", Price);
+                        cmd.Parameters.AddWithValue("@CategoryID", CategoryID);
+                        cmd.Parameters.AddWithValue("@IsActive", IsActive);
                         cmd.Parameters.AddWithValue("@ProductID", _productID);
                         cmd.CommandType = CommandType.StoredProcedure;
                         cmd.ExecuteNonQuery();

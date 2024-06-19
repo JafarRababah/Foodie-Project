@@ -19,11 +19,11 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-body">
-                            <div class="card-title ab-4">
+                            <div class="card-title mb-4">
                                 <div class="d-flex justify-content-start">
                                     <div class="image-container">
-                                        <img src="<%# Foodie.clsUtils.GetImageUrl(Session["UserImage"].ToString())%>" class="img-thumbnail" id="imgProfile" style="width: 150px; height: 150px;" />
-                                    </div>
+                                        <img src='<%#Foodie.clsUtils.GetImageUrl(Session["UserImage"].ToString())%>' class="img-thumbnail" id="imgProfile" style="width: 150px; height: 150px;" />
+                                    
                                     <div class="middle pt-2">
                                         <a href="Registiration.aspx?UserID=<%Response.Write(Session["UserID"]);%>" class="btn btn-warning">
                                             <i class="fa fa-pencil"></i>Edit Details
@@ -32,7 +32,7 @@
                                 </div>
                                 <div class="userData ml-3">
                                     <h2 class="d-block" style="font-size: 1.5rem; font-weight: bold">
-                                        <a href="javascript:void(0);"><%Response.Write(Session["name"]);%></a>
+                                        <a href="javascript:void(0);"><%Response.Write(Session["name"]);%></a>
                                     </h2>
                                     <h6 class="d-block">
                                         <a href="javascript:void(0)">
@@ -71,7 +71,7 @@
                                         </a>
                                     </li>
                                 </ul>
-                                <div class="tab-content #l-1" id="myTabContent"></div>
+                                <div class="tab-content ml-1" id="myTabContent">
                                 <%-- Basic User Info --%>
                                 <div class="tab-pane fade show active" id="basicInfo" role="tabpanel" aria-labelledby="basicInfo-tab">
                                     <asp:Repeater ID="rUserProfile" runat="server">
@@ -139,9 +139,9 @@
                                     <asp:Repeater ID="rPurchaseHistory" runat="server" OnItemDataBound="rPurchaseHistory_ItemDataBound">
                                         <ItemTemplate>
                                             <div class="container">
-                                                <div class="row pt-1 pb-1" style="background-color: lightgray">
+                                                <div class="row pt-1 pb-1" style="background-color:lightgray">
                                                     <div class="col-4">
-                                                        <span class="badge badge-pill badge-danger text-white">
+                                                        <span class="badge badge-pill badge-dark text-white">
                                                             <%#Eval("SrNo") %>
                                                         </span>
                                                         Payment Mode:<%#Eval("PaymentMode").ToString()=="cod"?"Cash on Delivery":Eval("PaymentMode").ToString().ToUpper() %></div>
@@ -155,8 +155,8 @@
                                                 <asp:HiddenField ID="hdnPaymentID" runat="server" Value='<%#Eval("PaymentID")%>'/>
                                                 <asp:Repeater ID="rOrders" runat="server">
                                                     <HeaderTemplate>
-                                                        <table>
-                                                            <thead>
+                                                        <table class="table data-table-export table-responsive-sm table-bordered table-hover">
+                                                            <thead class="bg-dark text-white">
                                                                 <tr>
                                                                     <th>ProductName</th>
                                                                     <th>Unit Price</th>
@@ -201,6 +201,8 @@
                                     </asp:Repeater>
                                 </div>
                                 <%-- End History --%>
+                                    </div>
+                                 </div>
                             </div>
                         </div>
                     </div>
