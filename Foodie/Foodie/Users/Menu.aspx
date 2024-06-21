@@ -1,50 +1,51 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Users/User.Master" AutoEventWireup="true" CodeBehind="Menu.aspx.cs" Inherits="Foodie.Users.Menu" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-     <!-- food section -->
+    <!-- food section -->
 
-  <section class="food_section layout_padding">
-    <div class="container">
-      <div class="heading_container heading_center">
-          <div class="align-self-end">
-         <asp:Label ID="lblMsg" runat="server" Visible="false"></asp:Label>
-          </div>
-        <h2>
-          Our Menu
+    <section class="food_section layout_padding">
+        <div class="container">
+            <div class="heading_container heading_center">
+                <div class="align-self-end">
+                    <asp:Label ID="lblMsg" runat="server" Visible="false"></asp:Label>
+                </div>
+                <h2>Our Menu
         </h2>
-      </div>
+            </div>
 
-       <ul class="filters_menu">
-    <li class="active" data-filter="*" data-id="0">All</li>
-        <asp:Repeater ID="rCategory" runat="server">
-            <ItemTemplate>
-               <li data-filter=".<%#Regex.Replace(Eval("CategoryName").ToString().ToLower(),@"\s+","")%>"
-                    data-id="<%#Eval("CategoryID")%>"><%#Eval("CategoryName")%></li>
-            </ItemTemplate>
-        </asp:Repeater>
-</ul>
-                
+            <ul class="filters_menu">
 
-      <div class="filters-content">
-        <div class="row grid">
-            <asp:Repeater ID="rProduct" runat="server" OnItemCommand= "rProduct_ItemCommand">
-                <ItemTemplate>
-                      <div class="col-sm-6 col-lg-4 all <%#Regex.Replace(Eval("CatName").ToString().ToUpper(),@"\s+","")%>">
-    <div class="box">
-      <div>
-        <div class="img-box">
-          <img src="<%# Foodie.clsUtils.GetImageUrl(Eval("ProductImage"))%>" alt="">
-        </div>
-        <div class="detail-box">
-            <h5><%# Eval("ProductName") %></h5>
-            <p>
-                <%#Eval("Description").ToString().ToLower()%>
-            </p>
-            <div class="options">
-                <h6><%# Eval("Price") %></h6>
-                <asp:LinkButton ID="lbAddToCart" CommandArgument='<%#Eval("ProductID")%>' CommandName="addToCart"
-                     runat="server" CausesValidation="False">
+                <li class="active" data-filter="*" data-id="0">All</li>
+                <asp:Repeater ID="rCategory" runat="server">
+                    <ItemTemplate>
+                        <li data-filter=".<%#Regex.Replace(Eval("CategoryName").ToString().ToLower(),@"\s+","")%>"
+                            data-id="<%#Eval("CategoryID")%>"><%#Eval("CategoryName")%></li>
+                    </ItemTemplate>
+                </asp:Repeater>
+            </ul>
+
+
+            <div class="filters-content">
+                <div class="row grid">
+                    <asp:Repeater ID="rProduct" runat="server" OnItemCommand="rProduct_ItemCommand">
+                        <ItemTemplate>
+                            <div class="col-sm-6 col-lg-4 all <%#Regex.Replace(Eval("CatName").ToString().ToLower(),@"\s+","")%>">
+                                <div class="box">
+                                    <div>
+                                        <div class="img-box">
+                                            <img src="<%#Foodie.clsUtils.GetImageUrl(Eval("ProductImage"))%>" alt="">
+                                        </div>
+                                        <div class="detail-box">
+                                            <h5><%#Eval("ProductName") %></h5>
+                                            <p>
+                                                <%#Eval("Description").ToString().ToLower()%>
+                                            </p>
+                                            <div class="options">
+                                                <h6><%# Eval("Price") %></h6>
+                                                <asp:LinkButton ID="lbAddToCart" CommandArgument='<%#Eval("ProductID")%>' CommandName="addToCart"
+                                                    runat="server" CausesValidation="False">
                      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
                         <g>
                           <g>
@@ -98,28 +99,27 @@
                         </g>
                       </svg>
                     
-                </asp:LinkButton>
-           
-            </div>
-          
-          
-        </div>
-      </div>
-    </div>
-  </div>
-                </ItemTemplate>
-            </asp:Repeater>
-        
-        
-        </div>
-      </div>
-      <div class="btn-box">
-        <a href="">
-          View More
-        </a>
-      </div>
-    </div>
-  </section>
+                                                </asp:LinkButton>
 
-  <!-- end food section -->
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ItemTemplate>
+                    </asp:Repeater>
+
+
+                </div>
+            </div>
+            <div class="btn-box">
+                <a href="">View More
+        </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- end food section -->
 </asp:Content>

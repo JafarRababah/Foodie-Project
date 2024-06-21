@@ -197,7 +197,9 @@ p {
         color: #505458;
         line-height: 20px; }
         .card .card-header .card-header-right i.icofont.icofont-spinner-alt-5 {
-          display: none; }
+          
+            
+            ; }
       .card .card-header .card-header-right .card-option {
         width: 35px;
         height: 20px;
